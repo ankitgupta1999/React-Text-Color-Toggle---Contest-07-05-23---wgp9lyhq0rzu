@@ -9,7 +9,7 @@ const App = () => {
   };
   return (
     <div id="main">
-      <p className={isBlue?'blue':'red'} >Newton School</p>
+      <p className={isBlue?'blueColor':'redColor'} >Newton School</p>
       <button id='button' onClick={toggleColor}>Change Style</button>
     </div>
   )
